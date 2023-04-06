@@ -4,6 +4,7 @@
   <span>ColossalChat</span>
 </h1>
 
+This repo is a fork of https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat
 
 ## Table of Contents
 
