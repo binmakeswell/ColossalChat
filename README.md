@@ -46,7 +46,7 @@ Coati stands for `ColossalAI Talking Intelligence`. It is the name for the modul
 The Coati package provides a unified large language model framework that has implemented the following functions
 - Supports comprehensive large-model training acceleration capabilities for ColossalAI, without requiring knowledge of complex distributed training algorithms
 - Supervised datasets collection
-- Supervised insturcts fine-tuning
+- Supervised instructs fine-tuning
 - Training reward model
 - Reinforcement learning with human feedback
 - Quantization inference
@@ -61,7 +61,7 @@ The Coati package provides a unified large language model framework that has imp
    Image source: https://openai.com/blog/chatgpt
 </div>
 
-**As Colossa-AI is undergoing some major updates, this project will be actively maintained to stay in line with the Colossal-AI project.**
+**As Colossal-AI is undergoing some major updates, this project will be actively maintained to stay in line with the Colossal-AI project.**
 
 
 More details can be found in the latest news.
@@ -99,7 +99,7 @@ pip install .
 
 ### Supervised datasets collection
 
-we colllected 104K bilingual dataset of Chinese and English, and you can find the datasets in this repo
+we collected 104K bilingual dataset of Chinese and English, and you can find the datasets in this repo
 [InstructionWild](https://github.com/XueFuzhao/InstructionWild)
 
 Here is how we collected the data
@@ -335,7 +335,7 @@ trainer.save_model(path=args.save_path, only_rank0=True, tokenizer=tokenizer)
 - [x] implement PPO-ptx fine-tuning
 - [ ] integrate with Ray
 - [ ] support more RL paradigms, like Implicit Language Q-Learning (ILQL),
-- [ ] support chain of throught by [langchain](https://github.com/hwchase17/langchain)
+- [ ] support chain of thought by [langchain](https://github.com/hwchase17/langchain)
 
 ### Real-time progress
 You will find our progress in github project broad

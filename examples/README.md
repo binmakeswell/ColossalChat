@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 ## Supervised datasets collection
 
-We colllected 104K bilingual dataset of Chinese and English, and you can find the datasets in this repo
+We collected 104K bilingual dataset of Chinese and English, and you can find the datasets in this repo
 [InstructionWild](https://github.com/XueFuzhao/InstructionWild).
 
 The following pic shows how we collected the data.
@@ -98,7 +98,7 @@ Model performance in [Anthropics paper](https://arxiv.org/abs/2204.05862):
 - --lora_rank:         low-rank adaptation matrices rank, type=int, default=0
 - --loss_func:         which kind of loss function, choices=['log_sig', 'log_exp']
 - --max_len:           max sentence length for generation, type=int, default=512
-- --test:              whether is only tesing, if it's ture, the dataset will be small
+- --test:              whether is only testing, if it's true, the dataset will be small
 
 ## Stage3 - Training model using prompts with RL
 
